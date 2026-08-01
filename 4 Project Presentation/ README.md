@@ -1,21 +1,10 @@
-**BRIGHT TV VIEWERSHIP ANALYSIS** 
+**BRIGHT COFFE SHOP ANALYSIS** 
 
 **ABOUT PROJECT**
 
-The Project analyes viewership data for Bright TV and looks at the viewers for the channel, showing a decline in viewership. 
+The Project analyses three coffee shop sales Hell's Kitchen, Lower Manhattan and Astoria.<br>
 
-The goal was to assist brighttv learn why it's viewership is declining and how they can increase their viewership according to their targets Fr the financial year. SQL was used to clean the data and get finding that will later be presented to the CEO of brighttv and help the business make decisions that will grow the viewership. 
-
-**PROJECT OBJECTIVES** 
-
-**The analysis answers below business questions**.<br>
-
-Which gender watches the most?<br>
-Which province has more and less viewership?<br> 
-Which channels have most views?<br>
-What time has more viewers?<br>
-What day has more viewers?<br>
-Recommendations to increase viewership?
+The aim of this project is to analyze Bright Coffee Shop's sales and transaction data to identify trends, customer purchasing behavior, store performance, and product performance. The insights generated will support data-driven decision-making to increase sales, improve operational efficiency, enhance customer satisfaction, and maximize business profitability.<br>
 
 **TOOLS USED**<br>
 Databricks<br>
@@ -27,7 +16,7 @@ Copilot<br>
 
 **PROCESS** 
 
-**The process was completed as follows:**<br>
+**The process was completed as follows**<br>
 
 Cleaned and prepared dataset using Databricks<br>
 Used SQL to get total number of viewers, provinces, age group, viewership times and days<br>
@@ -35,67 +24,148 @@ Used copilot and chatgpt to create visualisation charts<br>
 Used excel to create project planning and viewership analysis<br> 
 Used Canva to create project presentation<br>
 
-**KEY FINDINGS**<br>
+**Executive insights**<br>
+Barista Espresso is the highest revenue-generating product, contributing over $91K.
+Brewed Chai Tea and Hot Chocolate are also major revenue drivers, demonstrating strong customer demand beyond traditional coffee.
+Coffee-based beverages dominate the top-selling products, reinforcing coffee as the core business.
+Scones are the highest-selling bakery item, indicating a strong opportunity for beverage-and-pastry bundle promotions.<br>
 
-**Subscriber Overview**<br>
+**CEO recommendations**<br>
+Prioritize inventory availability for the top five products, particularly during the morning peak (7 AM–11 AM).
+Feature Barista Espresso in marketing campaigns and loyalty rewards.
+Increase average order value by bundling popular drinks with bakery products such as Scones.
+Review pricing and promotional strategies for lower-performing products to improve their contribution to total revenue.
 
-Total Subscribers:<br> 
-The number is roughly two‑thirds actively viewing content<br>
-Average Watch Time per session, suggests moderate engagement<br> 
-Average Age: Mid‑30s, indicating a youthful but mature audience base<br>
-Gauteng is the highest viewing province<br>
-Sports and music channels have most viewers<br>
+**Business Objective**<br>
 
-**DEMOGRAPHIC INSIGHT**<br>
-**Gender Split:**<br> 
-Slightly more male viewers than female, with maximum viewers being blanks<BR>
-**Age Groups:**<br>
-The largest segments are Youth (20–35) and Adults (36–50) — prime advertising demographics<br>
-**Race Distribution:**<br>
-Majority Blacks (8279), followed by Whites, Coloured and Indian/Asians; “Other/None” cleaned to 10%.<br>
-**Province Concentration:**<br> 
-Gauteng dominate viewership with Nothern Cape having low viewrship. 
+How can Bright Coffee Shop increase sales, improve operational efficiency, and maximize profitability using data-driven insights?<br>
 
-**VIEWING BEHAVIOR**<BR>
-Peak Hours: Evening (17:00–23:59) is the most active period, aligning with leisure time<BR>
-Weekend vs Weekday: 63% weekday viewership, but weekend spikes in entertainment channels<BR>
-Top Channels: SawSee, News365, and MovieMax lead — a mix of entertainment and news<BR>
-Screen Time Buckets: Most users fall into medium (30–60 min) usage, with a third in high‑usage (>60 min)<BR>
+**Executive Summary**<br>
 
-**ENGAGEMENT FLAGS**<BR>
-**Email Availability:**<br> 
-78% have valid emails — strong potential for direct email campaigns<BR>
-**Social Media Presence:**<br>
-64% linked to social handles — ideal for cross‑platform marketing and advertising engagement<BR>
-**Data Completeness:**<br>
-Missing or blank fields were successfully normalized (e.g., “None,” “Uncategorized”), improving reliability.<BR>
+Analysis of the Bright Coffee Shop dataset (January–June 2023) shows that the business generated $698,812.33 in total sales from 149,116 transactions across three store locations. Coffee remains the primary revenue driver, with sales peaking during the morning hours (7:00 AM–11:00 AM). The three stores perform consistently, indicating stable operations and opportunities to increase revenue through better product mix, targeted promotions, and operational improvements.
 
-**ANALYTICAL TAKEAWAYS**<BR>
-The cleaned dataset now supports segmentation by age, gender, and region, enabling targeted marketing. Evening and weekend patterns suggest prime‑time advertising opportunities. The demographic skew toward youth and adults implies content strategy should emphasize lifestyle and entertainment. High email and social media connectivity open doors for multi‑channel outreach and personalized recommendations.<BR>
+**Key Findings**<br>
+1. Strong Sales Performance
+Total revenue reached $698,812.33.
+Monthly sales increased steadily during the six-month period.
+The business demonstrates positive growth momentum.
 
-**WHAT I HAVE LEARNED FROM THIS PROJECT**<BR>
-**Data Awareness**<br>
-I learned how raw data transforms into insight through cleaning and validation.Missing values, duplicates, and inconsistent entries can distort analysis.By standardizing fields (like gender, race, and province), you’ve ensured data integrity — the foundation of trustworthy dashboards<BR>
+**Opportunity**<br>
+Maintain growth by expanding successful promotions and customer retention initiatives.
 
-**ANALYTICAL THINKING**<BR>
-I now see and know how to connect SQL logic to business meaning:<BR>
-Each query (e.g., CASE, GROUP BY, COALESCE) isn’t just code — it’s a decision about how to interpret reality.<BR>
-I have learned to segment audiences (age, gender, region) and measure engagement (watch time, frequency, duration)<BR>
+2. Coffee Drives the Business
+Coffee generated the highest revenue, followed by Tea and Bakery products.
 
-**INSIGHT INTERPRETATION**<BR>
-From the dashboard, I’ve learned to read patterns like a strategist<BR>
-Evening viewership peaks → prime time for ads and new releases<BR>
-Youth and adult dominance → tailor content toward lifestyle and entertainment<BR>
-Regional clusters → focus marketing on high‑density provinces<BR>
-Email and social media flags → leverage digital outreach for personalized campaigns<BR>
+**Business Impact**<br>
 
-**DATA STORYTELLING**<BR>
-I have discovered that dashboards are visual narratives — they tell the story of your audience.Each chart reveals a behavior, each KPI a pulse of engagement. I have learned how to translate SQL results into human insights that guide creative and strategic decisions.
+Coffee and Tea are the core revenue generators.<br>
+Continue investing in premium coffee products.<br>
+Introduce seasonal beverages and limited-time offers.<br>
+Promote coffee subscription or loyalty programs.<br>
 
-**STARATEGIC APPLICATION**<BR>
-I now understand how cleaned, structured data supports:Targeted marketing and content scheduling.Performance tracking across demographics.Predictive insights for future campaigns<BR>
+3. Morning Hours Generate the Most Revenue<br>
+Sales are highest between 7 AM and 11 AM, with 10 AM identified as the peak hour.<br>
 
-In essence, I have moved from data technician to data storyteller — learning how to turn structured queries into actionable wisdom<BR>
+**Business Impact**<br>
+Most daily revenue is earned during a short period.<br>
 
+**Recommendation**<br>
+Schedule additional staff during peak hours.<br>
+Prepare inventory before opening.<br>
+Open additional service points or express pickup where possible.<br>
 
+4. Stores Perform Consistently
+Revenue is evenly distributed among:
+Hell's Kitchen
+Astoria
+Lower Manhattan
 
+Business Impact
+No store is significantly underperforming.
+
+Recommendation
+Share best practices between stores.
+Standardize successful promotions and operational processes.
+
+5. Top Products Generate Most Revenue
+Products such as:
+
+Barista Espresso
+Brewed Chai Tea
+Hot Chocolate
+Gourmet Brewed Coffee
+
+generate a large share of total sales.
+
+Recommendation
+Ensure these products are always in stock.
+Place them prominently on menus and promotional displays.
+Bundle them with bakery items.
+
+6. Bakery Presents Upselling Opportunities
+
+Bakery contributes meaningful revenue but less than beverages.
+
+Recommendation
+Offer meal deals such as:
+
+Coffee + Muffin
+Latte + Croissant
+Cappuccino + Scone
+
+to increase the average transaction value.
+
+7. Revenue Growth Opportunity During Quiet Hours
+
+Sales decline significantly after midday.
+
+Recommendation
+
+Introduce afternoon discounts.
+Offer "Happy Hour" promotions.
+Launch student or office-worker specials during slower periods.
+Operational Improvements
+
+The data suggests several opportunities to improve efficiency:
+
+Increase staffing during morning peak periods.
+Reduce staffing during quiet hours.
+Forecast inventory based on sales trends.
+Maintain adequate stock of best-selling products.
+Reduce waste by aligning production with demand.
+
+These changes can lower operating costs while improving customer service.
+
+**Marketing Recommendations**<br>
+
+Use the dataset to create targeted campaigns<br>
+
+Reward frequent morning customers with loyalty points.<br>
+Promote new coffee flavours and seasonal drinks.<br>
+Encourage repeat visits using digital coupons.<br>
+Bundle beverages with bakery items.<br>
+Advertise top-selling products on social media.<br>
+Profitability Strategies<br>
+
+**The analysis supports several ways to increase profitability**<br>
+
+Increase average transaction value through upselling and bundles.<br>
+Focus marketing spend on high-margin products.<br>
+Reduce stock-outs of popular items.<br>
+Minimize waste by improving inventory planning.<br>
+Increase sales during off-peak hours through targeted promotions.<br>
+Expected Business Outcomes<br>
+
+**If these recommendations are implemented, Bright Coffee Shop can expect**<br>
+
+Higher total sales revenue.<br>
+Increased customer retention and loyalty.<br>
+Improved operational efficiency.<br>
+Better inventory management.<br>
+Reduced operating costs and waste.<br>
+Higher average transaction value.<br>
+Increased profitability across all store locations.<br>
+
+**Conclusion**<br>
+
+The Bright Coffee Shop dataset provides clear evidence that revenue is driven by strong coffee sales, consistent store performance, and concentrated morning demand. By using these insights to optimize staffing, inventory, promotions, and product offerings, the business can increase sales, improve operational efficiency, and maximize profitability. A data-driven approach will enable management to make informed decisions that support sustainable growth and enhance the customer experience.
